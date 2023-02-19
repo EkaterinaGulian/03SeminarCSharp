@@ -6,28 +6,53 @@
 System.Console.Write("Введите номер четверти:  ");
 int A = Convert.ToInt32(Console.ReadLine());
 
+string [] array = {"x > 0, y > 0", "x < 0, y > 0", "x < 0, y < 0", "x > 0, y < 0", "такой четверти не существует"};
+
+if (A == 1)
 {
-    if (A == 1)
-{
-    System.Console.WriteLine("x > 0, y > 0");
+    System.Console.WriteLine(array[0]);
 }
 else if (A == 2)
 {
-    System.Console.WriteLine("x < 0, y > 0");
+    System.Console.WriteLine(array[1]);
 }
 else if (A == 3)
 {
-    System.Console.WriteLine("x < 0, y < 0");
+    System.Console.WriteLine(array[2]);
 }
 else if (A == 4)
 {
-    System.Console.WriteLine("x> 0, y < 0");
+    System.Console.WriteLine(array[3]);
 }
 else 
 {
-    System.Console.WriteLine("такой четверти не существует");
+    System.Console.WriteLine(array[4]);
 }
-}
+
+
+
+
+// if (A == 1)
+// {
+//     System.Console.WriteLine("x > 0, y > 0");
+// }
+// else if (A == 2)
+// {
+//     System.Console.WriteLine("x < 0, y > 0");
+// }
+// else if (A == 3)
+// {
+//     System.Console.WriteLine("x < 0, y < 0");
+// }
+// else if (A == 4)
+// {
+//     System.Console.WriteLine("x > 0, y < 0");
+// }
+// else 
+// {
+//     System.Console.WriteLine("такой четверти не существует");
+// }
+
 
 // FindQuarter(InputNumber("Введите координату X: "), InputNumber("Введите координату Y: "));
 
