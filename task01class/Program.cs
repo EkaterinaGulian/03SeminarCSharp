@@ -32,11 +32,13 @@ else
 
 }
 
-int X = InputNumber("Введиде координату X: ");
-int Y = InputNumber("Введиде координату Y: ");
+FindQuarter(InputNumber("Введите координату X: "), InputNumber("Введите координату Y: "));
 
-FindQuarter(X, Y);
-FindQuarter(-4, 7);
+// int X = InputNumber("Введиде координату X: ");
+// int Y = InputNumber("Введиде координату Y: ");
+
+// FindQuarter(X, Y);
+// FindQuarter(-4, 7);
 
 // // System.Console.Write("Введите координату X:  ");
 // // int X = Convert.ToInt32(Console.ReadLine());
